@@ -1,0 +1,15 @@
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\bin\Debug\KursovayaKamashevaVisiner.exe.config
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\bin\Debug\KursovayaKamashevaVisiner.exe
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\bin\Debug\KursovayaKamashevaVisiner.pdb
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\KursovayaKamashevaVisiner.csprojAssemblyReference.cache
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\MainWindow.g.cs
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\App.g.cs
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\KursovayaKamashevaVisiner_MarkupCompile.cache
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\KursovayaKamashevaVisiner_MarkupCompile.lref
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\MainWindow.baml
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\KursovayaKamashevaVisiner.g.resources
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\KursovayaKamashevaVisiner.Properties.Resources.resources
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\KursovayaKamashevaVisiner.csproj.GenerateResource.cache
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\KursovayaKamashevaVisiner.csproj.CoreCompileInputs.cache
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\KursovayaKamashevaVisiner.exe
+C:\Users\Юлия\source\repos\KursovayaKamashevaVisiner\obj\Debug\KursovayaKamashevaVisiner.pdb

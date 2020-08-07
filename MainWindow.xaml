@@ -1,0 +1,67 @@
+﻿<Window x:Class="KursovayaKamashevaVisiner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovayaKamashevaVisiner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+
+    <Grid>
+        <TabControl Margin="10" BorderThickness="0" Background="LightGray">
+            <TabControl.Resources>
+                <Style TargetType="TabItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TabItem">
+                                <Grid Name="Panel">
+                                    <ContentPresenter x:Name="ContentSite"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        ContentSource="Header"
+                                        Margin="10,2"/>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter TargetName="Panel" Property="Background" Value="LightSkyBlue" />
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="False">
+                                        <Setter TargetName="Panel" Property="Background" Value="White" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.Resources>
+            <TabItem Header="Дешифратор">
+                <TabItem.Content>
+                    <StackPanel>
+                        <Button Content="Загрузить файл" Margin="10" MaxWidth="250" MinWidth="150"  Click="Button_Click_Read"/>
+                        <TextBox Name ="TextDeshifr" TextWrapping="Wrap" Margin="0,0,-0.4,0" VerticalContentAlignment="Stretch" Height="600" IsEnabled="False"/>
+                        <Button Content="Сохранить файл" Margin="10" MaxWidth="250" MinWidth="150"  Click="Button_Click_Save1"/>
+                    </StackPanel>
+                </TabItem.Content>
+
+            </TabItem>
+            <TabItem Header="Шифратор">
+            <TabItem.Content>
+                    <StackPanel>
+                        <Label Content="Введите текст для шифрования:" Margin="10"/>
+                        <TextBox Name ="TextForShifr" TextWrapping="Wrap" Margin="0,0,-0.4,0" VerticalContentAlignment="Stretch" Height="200" AcceptsReturn="True"/>
+                        <Label Content="Введите ключ:" Margin="10"/>
+                        <TextBox Name ="Key" TextWrapping="Wrap" Margin="10" HorizontalAlignment="Left" VerticalContentAlignment="Stretch" MaxWidth="250" MinWidth="150"/>
+                        <Button Content="Зашифровать" MaxWidth="250" MinWidth="150" HorizontalAlignment="Left" Click="Button_Click_Shifr" Margin="10"/>
+                        <TextBox Name ="TextShifr" TextWrapping="Wrap" Margin="0,0,-0.4,0" VerticalContentAlignment="Stretch" Height="200" Visibility="Hidden" IsEnabled="False" />
+                        <Button Name ="OnSave"  Content="Сохранить файл" MaxWidth="250" MinWidth="150" HorizontalAlignment="Left" Click="Button_Click_Save2" Visibility="Hidden" Margin="10,10,0,10"/>
+                        
+                </StackPanel>
+            </TabItem.Content>
+
+            </TabItem>
+            <TabItem Header="Details" />
+
+
+        </TabControl>
+    </Grid>
+</Window>
